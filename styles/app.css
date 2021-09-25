@@ -1,8 +1,37 @@
-.d-flex {
-  background-color: turquoise;
-  font-family: "Gemunu Libre", sans-serif;
+:root {
+  --main-font: "Gemunu Libre", sans-serif;
+  --para-font: "Montserrat", sans-serif;
+  --brand-color: #def7f2;
+  --secondary-color: #1eedd5;
 }
 
+.hero-banner {
+  background-color: var(--brand-color);
+  font-family: var(--main-font);
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2,
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--para-font);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: black;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background-color: var(--brand-color);
+  color: black;
 }
