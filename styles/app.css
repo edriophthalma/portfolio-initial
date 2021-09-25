@@ -18,10 +18,15 @@ h1 {
 }
 
 h2,
+h3,
 p {
   font-family: var(--para-font);
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 .btn-primary {
@@ -34,4 +39,24 @@ p {
 .btn-primary:hover {
   background-color: var(--brand-color);
   color: black;
+}
+
+.row {
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: var(--secondary-color);
+  display: center;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+@media (max-width: 960px) {
+  .row {
+    border: none;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 47px;
+  }
 }
