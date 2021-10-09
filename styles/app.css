@@ -96,14 +96,14 @@ nav li.active a {
   color: var(--secondary-color);
 }
 
-@media (max-width: 960px) {
+@media (max-width: 400px) {
   .row {
     border: none;
     text-align: center;
   }
 
   h1 {
-    font-size: 47px;
+    font-size: 35px;
   }
 
   p {
