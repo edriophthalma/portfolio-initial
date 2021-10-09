@@ -38,6 +38,8 @@ h3 {
   color: black;
   border: none;
   border-radius: 10px;
+  width: 100px;
+  margin: 5px;
 }
 
 .btn-primary:hover {
